@@ -1,0 +1,116 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+
+    <ImageView
+        android:layout_width="99dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/bank_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <View
+        android:id="@+id/ellipse_10"
+        android:layout_width="172dp"
+        android:layout_height="165dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/circle"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <View
+        android:id="@+id/ellipse_11"
+        android:layout_width="206dp"
+        android:layout_height="217dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/circle"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <View
+        android:id="@+id/ellipse_12"
+        android:layout_width="285dp"
+        android:layout_height="277dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/circle"
+        tools:layout_editor_absoluteX="-106dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <View
+        android:id="@+id/ellipse_13"
+        android:layout_width="201dp"
+        android:layout_height="201dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/circle"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <ImageView
+        android:layout_width="425dp"
+        android:layout_height="225dp"
+        android:src="@drawable/card"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <View
+        android:id="@+id/ellipse_14"
+        android:layout_width="306dp"
+        android:layout_height="333dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/circle"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="245dp"
+        android:layout_height="291dp"
+        android:background="@drawable/teclado_color"
+        android:elevation="4dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <Button
+        android:layout_width="59dp"
+        android:layout_height="67dp"
+        android:background="@drawable/buttom_style"
+        android:text="1"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <Button
+        android:layout_width="59dp"
+        android:layout_height="67dp"
+        android:background="@drawable/buttom_style"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <Button
+        android:layout_width="59dp"
+        android:layout_height="67dp"
+        android:background="@drawable/buttom_style"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
