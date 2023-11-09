@@ -10,12 +10,18 @@
     <ImageView
         android:layout_width="99dp"
         android:layout_height="61dp"
+<<<<<<< HEAD
         android:layout_marginEnd="16dp"
         android:src="@drawable/bank_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038" />
+=======
+        android:src="@drawable/bank_logo"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="7dp"/>
+>>>>>>> origin/master
 
     <View
         android:id="@+id/ellipse_10"
