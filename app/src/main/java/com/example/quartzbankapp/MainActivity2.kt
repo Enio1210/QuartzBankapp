@@ -21,7 +21,6 @@ import com.google.android.material.color.utilities.Variant
 // id do edit text
         val text_password: EditText = findViewById(R.id.password)
         val btn_login: Button = findViewById(R.id.btn_login)
-        val switch: Switch = findViewById(R.id.switch1)
 
 
         btn_login.setOnClickListener {
