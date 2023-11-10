@@ -12,7 +12,7 @@ import android.widget.Switch
 import android.widget.Toast
 import com.google.android.material.color.utilities.Variant
 
-class MainActivity2 : AppCompatActivity() {
+/*class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
@@ -41,6 +41,6 @@ class MainActivity2 : AppCompatActivity() {
             }else{
             }*/
     }
-}
+}*/
 
 

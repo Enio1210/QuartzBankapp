@@ -9,7 +9,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
-class cardMoviment: AppCompatActivity(){
+/*class cardMoviment: AppCompatActivity(){
 private lateinit var sensorManager: SensorManager
 private lateinit var accelerometerSensor: Sensor
 private lateinit var imageView: ImageView
@@ -23,7 +23,7 @@ override fun
 
     sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
     accelerometerSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)!!
-    imageView = findViewById(R.id.card3d)
+    imageView = findViewById(R.id.card)
         }
 }
 override fun onResume(){
@@ -34,4 +34,4 @@ override fun onResume(){
 private val acccelerometerListener = object: SensorEventListener {
     override fun onSensorChanged(event: SensorEvent)
 }
-val x =
+val x =*/

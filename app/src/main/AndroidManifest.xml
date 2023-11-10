@@ -15,15 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuartzBankApp"
-        tools:targetApi="31">
+        tools:targetApi="34">
+
         <activity
-            android:name=".MainActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".TelaApresentacao"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
