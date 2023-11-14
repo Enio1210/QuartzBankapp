@@ -36,7 +36,7 @@ class TelaApresentacao : AppCompatActivity() {
             }
         }
 
-         val buttonBack = findViewById<Button>(R.id.buttom_back)
+        val buttonBack = findViewById<Button>(R.id.buttom_back)
         buttonBack.setOnClickListener{
             val tecladoLocal = teclado
             val textTecladoLocal = textTeclado
